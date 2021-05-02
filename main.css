@@ -42,11 +42,15 @@ h1, h2, h3, h4, h5, h6 {
     url(./img/bottom_pic.png) center bottom 122px no-repeat;
 }
 
-.header__container {
-    position: relative;
-    margin: 0px auto 46px;
+.container {
+    margin: 0 auto;
     width: 1140px;
+}
+
+.header {
     height: 150px;
+    position: relative;
+    margin-bottom: 46px;
 }
 
 .logo {
@@ -124,11 +128,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 36px;
 }
 
-.container {
-    margin: 0 auto;
-    width: 1140px;
-}
-
 .hello {
     margin-bottom: 246px;
 }
@@ -178,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .offers {
-    margin-bottom: 125px;
+    margin-bottom: 120px;
 }
 
 .section__header {
@@ -205,40 +204,27 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 22px;
     width: 362px;
     color: #000;
+    overflow: hidden;
 }
 
 .offers__item:last-child {
     margin-right: 0;
 }
 
-.offers__img {
-    width: 362px;
+.offers__img-wrapper {
+    width: 100%;
     height: 144px;
-    overflow: hidden;
-    position: relative;
     border-radius: 5px 5px 0 0;
 }
 
-.offers__img--moved--thai{
-    width: 362px;
-    position: absolute;
-    bottom: -71px;
-}
-
-.offers__img--moved--bali {
-    width: 362px;
-    position: absolute;
-    bottom: -78px;
-}
-
-.offers__img--moved--indo {
-    width: 362px;
-    position: absolute;
-    bottom: -35px;
+.offers__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .offers__content {
-    padding: 32px 0 26px 22px;
+    padding: 32px 22px 26px;
 }
 
 .offers__item-title {
@@ -318,6 +304,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     bottom: 0;
     padding: 25px 30px;
+    min-height: 166px;
 }
 
 .news__date {
@@ -386,9 +373,8 @@ h1, h2, h3, h4, h5, h6 {
 .about__desc {
     background: url(img/mountains.png) center center / cover no-repeat;
     border-radius: 5px;
-    padding: 70px 203px 70px 81px;
+    padding: 69px 203px 67px 81px;
     width: 785px;
-    height: 455px;
     margin-left: -141px;
     margin-bottom: -47px;
 }
@@ -407,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-    height: 104px;
+    height: 146px;
     position: relative;
 }
 
@@ -422,8 +408,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .socials {
     position: absolute;
-    top: 53px;
-    right: 440px;
+    top: 32px;
+    right: 253px;
 }
 
 .socials__item {
@@ -437,6 +423,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .socials__link {
+    background: center center / contain no-repeat;
     display: block;
     text-decoration: none;
     width: 36px;
