@@ -1,0 +1,55 @@
+.socials {
+    position: absolute;
+    top: 32px;
+    right: 253px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    background: center center / contain no-repeat;
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.socials__item--icon--telegram .socials__link {
+    background-image: url(../../img/icons/t.png);
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+    background-image: url(../../img/icons/t_hover.png);
+}
+
+.socials__item--icon--vk .socials__link {
+    background-image: url(../../img/icons/vk.png);
+}
+
+.socials__item--icon--vk .socials__link:hover {
+    background-image: url(../../img/icons/vk_hover.png);
+}
+
+.socials__item--icon--fb .socials__link {
+    background-image: url(../../img/icons/facebook.png);
+}
+
+.socials__item--icon--fb .socials__link:hover {
+    background-image: url(../../img/icons/facebook_hover.png);
+}
+
+.socials__item--icon--inst .socials__link {
+    background-image: url(../../img/icons/inst.png);
+}
+
+.socials__item--icon--inst .socials__link:hover {
+    background-image: url(../../img/icons/inst_hover.png);
+}

@@ -1,0 +1,30 @@
+.btn {
+    border-radius: 35px;
+    padding: 17px 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.btn--color--red {
+    background: #F5170E;
+}
+
+.btn--color--red:hover {
+    background: #DA0100;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+
+.btn--color--white {
+    border: 1px solid #F5170E;
+    color: #F5170E;
+    padding: 17px 30px;
+}
+
+.btn--color--white:hover {
+    background: #F5170E;
+    color: #fff;
+}

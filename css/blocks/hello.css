@@ -1,0 +1,16 @@
+.hello {
+    margin-bottom: 246px;
+}
+
+.hello__title {
+    font-size: 72px;
+    font-weight: 700;
+    width: 511px;
+    margin-bottom: 26.5px;
+    line-height: normal;
+}
+
+.hello__info {
+    font-size: 18px;
+    margin-bottom: 31px;
+}

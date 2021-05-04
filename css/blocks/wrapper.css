@@ -1,0 +1,4 @@
+.main-page-wrapper {
+    background: url(../../img/hero.png) center top no-repeat, 
+    url(../../img/bottom_pic.png) center bottom 122px no-repeat;
+}

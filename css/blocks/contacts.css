@@ -1,0 +1,33 @@
+.contacts {
+    position: absolute;
+    line-height: 16px;
+    top: 37px;
+    right: 0;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts--move{
+    top: 19px;
+}
+
+.contacts__tel {
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.contacts__inf {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #98A4A8;
+}
+
+.contacts__inf:hover {
+    color: #fff;
+}
+
+.contacts__inf-footer {
+    color: #9A9A9A;
+    font-size: 11px;
+    line-height: 36px;
+}

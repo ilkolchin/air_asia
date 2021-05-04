@@ -1,0 +1,11 @@
+.section__header {
+    margin-bottom: 51px;
+}
+
+.section__title {
+    font-size: 36px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 9px;
+    margin-left: 2px;
+}

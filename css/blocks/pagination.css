@@ -1,0 +1,30 @@
+.pagination {
+    text-align: center;
+}
+
+.pagination__info, .pagination__list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination__info {
+    margin-right: 25px;
+}
+
+.pagination__item {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 11px;
+    font-weight: 700;
+    border-radius: 18px;
+}
+
+.pagination__item--active {
+    color: #F5170E;
+    background: #fff;
+}
+
+.pagination__item:hover {
+    color: #F5170E;
+    background: #fff;
+}
