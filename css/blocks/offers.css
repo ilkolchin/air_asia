@@ -1,17 +1,21 @@
 .offers {
-    margin-bottom: 120px;
+    margin-bottom: 125px;
 }
 
 .offers__title-icon {
-    vertical-align: text-bottom;
+    height: 28px;
+    margin-top: 14px;
+}
+
+.offers__list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .offers__item{
     min-height: 449px;
     background: #fff;
     border-radius: 5px 5px 5px 5px;
-    display: inline-block;
-    margin-right: 22px;
     width: 362px;
     color: #000;
     overflow: hidden;
@@ -35,6 +39,9 @@
 
 .offers__content {
     padding: 32px 22px 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .offers__item-title {
@@ -45,14 +52,17 @@
 
 .offers__features {
     padding-left: 5px;
-    margin-bottom: 19px;
+    margin-bottom: 24px;
+    display: flex;
 }
 
 .offers__feature {
-    display: inline-block;
     vertical-align: top;
     width: 127px;
     margin-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .offers__feature:last-child {
@@ -64,7 +74,6 @@
 }
 
 .offers__feature-text {
-    display: inline-block;
     font-size: 16px;
     font-weight: 400;
     color: #666;

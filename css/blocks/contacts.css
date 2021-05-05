@@ -1,14 +1,12 @@
 .contacts {
-    position: absolute;
     line-height: 16px;
-    top: 37px;
-    right: 0;
     font-style: normal;
     text-align: right;
+    margin-top: 37px;
 }
 
 .contacts--move{
-    top: 19px;
+    margin-top: 19px;
 }
 
 .contacts__tel {

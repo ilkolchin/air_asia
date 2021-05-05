@@ -1,12 +1,10 @@
 .socials {
-    position: absolute;
-    top: 32px;
-    right: 253px;
+    margin-top: 33px;
+    margin-right: 73px;
+    display: flex;
 }
 
 .socials__item {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 10px;
 }
 

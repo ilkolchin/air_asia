@@ -1,10 +1,9 @@
 .about {
-    margin-bottom: 102px;
+    margin-bottom: 55px;
 }
 
-.about__back, .about__desc {
-    display: inline-block;
-    vertical-align: bottom;
+.about__wrapper {
+    display: flex;
 }
 
 .about__back {
@@ -24,8 +23,12 @@
     border-radius: 5px;
     padding: 69px 203px 67px 81px;
     width: 785px;
-    margin-left: -141px;
-    margin-bottom: -47px;
+    height: 455px;
+    margin-left: -137px;
+    margin-top: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .about__title {

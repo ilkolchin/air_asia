@@ -1,13 +1,15 @@
 .menu {
-    position: absolute;
-    left: 164px;
-    top: 38px;
+    flex-grow: 1;
+    margin-top: 40px;
+    margin-left: 79px;
+}
+
+.menu__list {
+    display: flex;
 }
 
 .menu__option {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 50px;
+    margin-right: 55px;
 }
 
 .menu__option--active .menu__link {

@@ -1,6 +1,5 @@
 .footer {
-    height: 146px;
-    position: relative;
+    height: 128px;
 }
 
 .footer-container__content {
@@ -8,6 +7,6 @@
 }
 
 .footer__wrapper {
-    position: relative;
-    top: 17px;
+    display: flex;
+    margin-top: 17px;
 }
