@@ -1,6 +1,6 @@
 .header {
-    height: 150px;
-    margin-bottom: 46px;
+    margin-bottom: 125px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    padding-top: 29px;
 }
