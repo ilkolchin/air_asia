@@ -1,8 +1,9 @@
-.logo {
-    display: block;
+.logo__img {
+    width: 98px;
+    height: 42px;
 }
 
-.logo__img {
+.logo__img--size-smaller {
     width: 85px;
     height: 36px;
 }

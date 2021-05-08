@@ -1,13 +1,25 @@
 .footer {
-    height: 108px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    margin-top: auto;
 }
 
 .footer-container__content {
     border-top: 1px solid rgb(255, 255, 255, .1)
 }
 
-.footer__wrapper {
-    display: flex;
-    margin-top: 39px;
-    align-items: center;
+.footer-container__section {
+    margin-top: 15px;
+    height: 108px;
+}
+
+.inner-footer {
+    margin-top: auto;
+}
+
+.inner-footer__container {
+    padding: 42px 0 34px;
 }

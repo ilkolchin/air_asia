@@ -7,6 +7,11 @@
     text-decoration: none;
     text-transform: uppercase;
     display: inline-flex;
+    margin-top: auto;
+}
+
+.btn--no_automargin{
+    margin: 0;
 }
 
 .btn--color--red {
@@ -24,7 +29,7 @@
     padding: 17px 30px;
 }
 
-.btn--color--white:hover {
+.btn--color--white:hover, .service:hover .service__btn {
     background: #F5170E;
     color: #fff;
 }

@@ -1,0 +1,14 @@
+.headline {
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 22px;
+    background: url(../../img/headline.jpg) -8px no-repeat;
+}
+
+.headline__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

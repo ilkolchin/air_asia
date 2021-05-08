@@ -27,3 +27,13 @@
     color: #F5170E;
     background: #fff;
 }
+
+.pagination--theme--red .pagination__item--active {
+    color: #fff;
+    background: #F5170E;
+}
+
+.pagination--theme--red .pagination__item:hover {
+    color: #fff;
+    background: #F5170E;
+}

@@ -1,17 +1,19 @@
 .hello {
-    margin-bottom: 246px;
+    margin-bottom: 145px;
 }
 
 .hello_wrapper{
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
+    min-height: 534px;
+    width: 45%;
 }
 
 .hello__title {
     font-size: 72px;
     font-weight: 700;
-    width: 511px;
     margin-bottom: 26.5px;
     line-height: normal;
 }
