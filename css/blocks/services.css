@@ -1,14 +1,18 @@
 .services {
-    margin-bottom: 16px;
+    margin-bottom: 65px;
 }
 
 .services__item {
     display: flex;
+    margin-bottom: 49px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0;
 }
 
 .service {
     display: flex;
-    margin-bottom: 49px;
     align-items: center;
 }
 
@@ -18,9 +22,6 @@
 }
 
 .service__content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     flex: 1;
 }
 
