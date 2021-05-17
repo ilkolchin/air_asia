@@ -21,6 +21,7 @@
 .btn--color--red:hover {
     background: #DA0100;
     box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+    transition: .5s;
 }
 
 .btn--color--white {
@@ -32,4 +33,5 @@
 .btn--color--white:hover, .service:hover .service__btn {
     background: #F5170E;
     color: #fff;
+    transition: .5s;
 }

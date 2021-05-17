@@ -26,6 +26,7 @@
 .pagination__item:hover {
     color: #F5170E;
     background: #fff;
+    transition: .5s;
 }
 
 .pagination--theme--red .pagination__item--active {
@@ -36,4 +37,5 @@
 .pagination--theme--red .pagination__item:hover {
     color: #fff;
     background: #F5170E;
+    transition: .5s;
 }

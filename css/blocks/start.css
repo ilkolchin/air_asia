@@ -1,0 +1,25 @@
+.start__desc {
+    background: url(../../img/backgrounds/shades.png) center bottom 35px no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    animation: bounceIn 2s;
+}
+
+
+.start__text {
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+text-align: center;
+margin-bottom: 53px;
+}
+
+.start__logo {
+    margin-bottom: -6px;
+}
+
+.start__btn {
+    padding: 18px 58px;
+}

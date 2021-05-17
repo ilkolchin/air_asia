@@ -2,6 +2,7 @@
     line-height: 16px;
     font-style: normal;
     text-align: right;
+    position: relative;
 }
 
 .contacts__tel {
@@ -9,14 +10,25 @@
     font-size: 26px;
 }
 
+.contacts__inf-wrap {
+    position: absolute;
+    left: 92px;
+}
+
+.contacts__inf-wrap:hover .dropdown {
+    left: -61%;
+    opacity: 1;
+}
+
+.contacts__inf-wrap:hover .contacts__inf {
+    color: #fff;
+    transition: .5s;
+}
+
 .contacts__inf {
     font-size: 13px;
     text-decoration: underline;
     color: #98A4A8;
-}
-
-.contacts__inf:hover {
-    color: #fff;
 }
 
 .contacts__inf-footer {

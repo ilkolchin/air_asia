@@ -7,6 +7,16 @@
 }
 
 .main-page-wrapper {
-    background: url(../../img/hero.png) center top no-repeat, 
-    url(../../img/bottom_pic.png) center bottom 122px no-repeat;
+    background: url(../../img/backgrounds/hero.png) center top no-repeat, 
+    url(../../img/backgrounds/bottom_pic.png) center bottom 122px no-repeat;
+}
+
+.start-page-wrapper {
+    width: 100%;
+    height: 100%;
+    background: url(../../img/backgrounds/girl_with_lamp.png) center top 67% no-repeat;
+}
+
+.start-page-wrapper__content{
+    justify-content: center;
 }
