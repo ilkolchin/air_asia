@@ -51,6 +51,8 @@
 .review__tags {
     display: flex;
     align-items: flex-start;
+    column-gap: 4px;
+    row-gap: 4px;
 }
 
 .review__title {
