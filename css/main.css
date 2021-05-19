@@ -3,7 +3,7 @@
 @import url(./layout/normalize.css);
 @import url(./layout/base.css);
 
-/* main-page (index.html) */
+/* main-page */
 
 @import url(./blocks/wrapper.css);
 @import url(./blocks/container.css);
@@ -34,3 +34,12 @@
 /* start */
 
 @import url(./blocks/start.css);
+
+/* reviews */
+
+@import url(./blocks/review.css);
+@import url(./blocks/avatar.css);
+@import url(./blocks/tag.css);
+@import url(./blocks/separator.css);
+@import url(./blocks/form.css);
+@import url(./blocks/controls.css);

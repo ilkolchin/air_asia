@@ -3,3 +3,7 @@
     color: #303030;
     padding: 98px 0 84px;
 }
+
+.page-content--margin--bigger {
+    padding-bottom: 88px;
+}

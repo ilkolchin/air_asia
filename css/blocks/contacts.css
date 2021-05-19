@@ -11,12 +11,12 @@
 }
 
 .contacts__inf-wrap {
-    position: absolute;
-    left: 92px;
+    position: relative;
 }
 
 .contacts__inf-wrap:hover .dropdown {
-    left: -61%;
+    left: initial; 
+    right: 0;
     opacity: 1;
 }
 

@@ -1,10 +1,11 @@
 .start__desc {
-    background: url(../../img/backgrounds/shades.png) center bottom 35px no-repeat;
+    background: url(../../img/backgrounds/shades.png) center top -15px no-repeat;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     animation: bounceIn 2s;
+    padding: 50px 0px;
 }
 
 

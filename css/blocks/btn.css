@@ -35,3 +35,11 @@
     color: #fff;
     transition: .5s;
 }
+
+.btn--color--grey {
+    background: #8E8E8E;
+}
+
+.btn--color--grey:hover {
+    background: #2B2B2B;
+}

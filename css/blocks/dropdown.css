@@ -1,7 +1,5 @@
 .dropdown {
     position: absolute;
-    width: 157px;
-    height: 68px;
     margin-top: 8px;
     background: #EDEDED;
     opacity: 0.8;
@@ -10,7 +8,7 @@
     line-height: 21px;
     color:#1E1F20;
     text-align: center;
-    padding: 12%;
+    padding: 13px 18px;
     left: -9999px;
     opacity: 0;
     transition: opacity 1s;
